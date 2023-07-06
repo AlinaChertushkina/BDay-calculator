@@ -1,0 +1,29 @@
+.main-container {
+    width: 100%;
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+}
+
+.input-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.button {
+    background-color: rgb(83, 223, 83);
+    border: none;
+    border-radius: 10px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#days-left {
+    display: flex;
+    justify-content: center;
+    font-size: larger;
+}
